@@ -39,11 +39,11 @@
             //               | GUI | ALT  | CTRL | LOWER|  ENTER |  | SPACE | RAISE| CTRL  | ALT   | GUI  |
 
             bindings = <
-&kp BACKSPACE     &kp N0            &kp N9      &kp N8     &kp N7        &kp N6                              &kp N6     &kp N7     &kp N8     &kp N9    &kp N0            &kp BACKSPACE
-&kp TAB           &kp P             &kp O       &kp I      &kp U         &kp Y                               &kp Y      &kp U      &kp I      &kp O     &kp P             &kp BSPC
-&kp LSHFT         &kp SINGLE_QUOTE  &kp L       &kp K      &kp J         &kp H                               &kp H      &kp J      &kp K      &kp L     &kp SINGLE_QUOTE  &kp RIGHT_CONTROL
-&kp LEFT_CONTROL  &kp SLASH         &kp PERIOD  &kp COMMA  &kp M         &kp N      &mo LOWER    &kp K_MUTE  &kp N      &kp M      &kp COMMA  &kp DOT   &kp FSLH          &kp RSHFT
-                                    &kp LWIN    &mo 2      &kp LEFT_ALT  &kp SPACE  &mo 1        &mo 1       &kp SPACE  &kp RCTRL  &mo 2      &kp RGUI
+&kp BACKSPACE     &kp N0            &kp N9      &kp N8         &kp N7  &kp N6                                  &kp N6     &kp N7     &kp N8     &kp N9    &kp N0            &kp BACKSPACE
+&kp TAB           &kp P             &kp O       &kp I          &kp U   &kp Y                                   &kp Y      &kp U      &kp I      &kp O     &kp P             &kp BSPC
+&kp LSHFT         &kp SINGLE_QUOTE  &kp L       &kp K          &kp J   &kp H                                   &kp H      &kp J      &kp K      &kp L     &kp SINGLE_QUOTE  &kp RIGHT_CONTROL
+&kp LEFT_CONTROL  &kp SLASH         &kp PERIOD  &kp COMMA      &kp M   &kp N          &mo LOWER    &kp K_MUTE  &kp N      &kp M      &kp COMMA  &kp DOT   &kp FSLH          &kp RSHFT
+                                    &kp LWIN    &kp RIGHT_WIN  &mo 2   &kp RIGHT_ALT  &kp SPACE    &mo 1       &kp SPACE  &kp RCTRL  &mo 2      &kp RGUI
             >;
 
             sensor-bindings =
@@ -82,11 +82,11 @@
             //              |      |       |       |      |      |  |      |      |      |       |      |
 
             bindings = <
-&bt BT_CLR    &kp N6  &kp KP_MULTIPLY  &kp KP_MULTIPLY  &kp KP_SLASH  &kp KP_NUMLOCK                               &kp KP_NUMLOCK   &kp KP_DIVIDE    &kp KP_MULTIPLY  &kp KP_MINUS  &trans   &trans
-&trans        &kp Y   &kp KP_PLUS      &kp KP_N9        &kp KP_N8     &kp KP_N7                                    &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_PLUS   &kp N0   &trans
-&trans        &kp H   &kp J            &kp KP_N6        &kp KP_N5     &kp KP_N4                                    &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp RIGHT     &kp DEL  &kp BSPC
-&bt BT_SEL 0  &trans  &trans           &kp KP_N3        &kp KP_N2     &kp KP_N1       &trans               &trans  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &trans        &trans   &trans
-                      &bt BT_SEL 1     &trans           &kp KP_DOT    &kp KP_N0       &ext_power EP_TOG    &trans  &kp KP_NUMBER_0  &kp C_AC_DEL     &trans           &trans
+&bt BT_CLR    &kp N6  &kp KP_MULTIPLY  &kp KP_MULTIPLY  &kp KP_SLASH  &kp KP_NUMLOCK                          &kp KP_NUMLOCK   &kp KP_DIVIDE    &kp KP_MULTIPLY  &kp KP_MINUS  &trans   &trans
+&trans        &kp Y   &kp KP_PLUS      &kp KP_N9        &kp KP_N8     &kp KP_N7                               &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_PLUS   &kp N0   &trans
+&trans        &kp H   &kp J            &kp KP_N6        &kp KP_N5     &kp KP_N4                               &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp RIGHT     &kp DEL  &kp BSPC
+&bt BT_SEL 0  &trans  &trans           &kp KP_N3        &kp KP_N2     &kp KP_N1       &bt BT_SEL 4    &trans  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &trans        &trans   &trans
+                      &bt BT_SEL 1     &bt BT_SEL 1     &trans        &bt BT_SEL 2    &bt BT_SEL 3    &trans  &kp KP_NUMBER_0  &kp C_AC_DEL     &trans           &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
