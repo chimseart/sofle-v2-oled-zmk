@@ -1,7 +1,8 @@
 layout: {zmk_keyboard: sofle}
 layers:
   default: [BACKSPACE, '0', '9', '8', '7', '6', '6', '7', '8', '9', '0', BACKSPACE, TAB, P, O, I, U, Y, Y, U, I, O, P, BSPC, LSHFT, '''', L, K, J, H, H, J, K, L,
-    '''', RIGHT CONTROL, LEFT CONTROL, /, ., ',', M, N, lower, MUTE, N, M, ',', ., /, RSHFT, LWIN, raise, LEFT ALT, SPACE, lower, lower, SPACE, RCTRL, raise, RGUI]
+    '''', RIGHT CONTROL, LEFT CONTROL, /, ., ',', M, N, lower, MUTE, N, M, ',', ., /, RSHFT, LWIN, RIGHT WIN, raise, RIGHT ALT, SPACE, lower, SPACE, RCTRL, raise,
+    RGUI]
   lower:
   - F11
   - F10
@@ -106,7 +107,7 @@ layers:
   - KP 3
   - KP 2
   - KP 1
-  - {t: ▽, type: trans}
+  - {t: BT, h: '4'}
   - {t: ▽, type: trans}
   - KP 1
   - KP 2
@@ -115,10 +116,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: BT, h: '1'}
+  - {t: BT, h: '1'}
   - {type: held}
-  - KP DOT
-  - KP 0
-  - EP TOG
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
   - {t: ▽, type: trans}
   - KP 0
   - AC DEL
@@ -176,8 +177,8 @@ layers:
   - ''
   - ''
   - ''
-  - {type: held}
   - ''
+  - {type: held}
   - ''
   - ''
   - ''
