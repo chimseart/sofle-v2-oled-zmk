@@ -1,9 +1,9 @@
 layout: {zmk_keyboard: sofle}
 layers:
-  default: ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', DELETE, ESC, Q, W, E, R, T, Y, U, I, O, P, BSPC, TAB, A, S, D, F, G, H, J, K, L, ;, '''', LSHFT,
-    Z, X, C, V, B, MUTE, '', N, M, ',', ., /, RSHFT, LGUI, LALT, LCTRL, lower, RET, SPACE, raise, RCTRL, RALT, RGUI]
+  default: [ESCAPE, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', BACKSPACE, TAB, Q, W, E, R, T, Y, U, I, O, P, BSPC, LEFT SHIFT, A, S, D, F, G, H, J, K, L, ;,
+    '''', LEFT CONTROL, Z, X, C, V, B, MUTE, '', N, M, ',', ., /, RSHFT, LGUI, raise, LEFT ALT, SPACE, lower, lower, SPACE, LEFT ALT, adjust, RGUI]
   lower:
-  - '&studio_unlock'
+  - '`'
   - F1
   - F2
   - F3
@@ -15,36 +15,36 @@ layers:
   - F9
   - F10
   - F11
-  - '`'
-  - '1'
-  - '2'
-  - '3'
-  - '4'
+  - CAPS
   - '5'
+  - UP ARROW
   - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
-  - F12
-  - {t: ▽, type: trans}
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
-  - ^
-  - '&'
-  - KP MULTIPLY
-  - (
-  - )
-  - '|'
-  - {t: ▽, type: trans}
-  - '='
+  - PRINTSCREEN
+  - BACKSPACE
+  - INS
+  - HOME
+  - PAGE UP
   - '-'
-  - KP PLUS
-  - '{'
-  - '}'
+  - '='
+  - /
+  - LEFT SHIFT
+  - LEFT ARROW
+  - DOWN ARROW
+  - RIGHT
+  - \
+  - ENTER
+  - ^
+  - END
+  - PAGE DOWN
+  - '['
+  - ']'
+  - RIGHT SHIFT
+  - LEFT CONTROL
+  - '-'
+  - PREVIOUS
+  - PLAY PAUSE
+  - NEXT
+  - DEL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '['
@@ -52,12 +52,12 @@ layers:
   - ;
   - ':'
   - \
-  - {t: ▽, type: trans}
+  - RIGHT CONTROL
   - '&studio_unlock'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - BRI DEC
+  - BRIGHTNESS INC
   - {type: held}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -77,11 +77,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - INS
-  - PSCRN
-  - CMENU
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Y
+  - U
+  - I
+  - O
+  - P
   - PG UP
   - {t: ▽, type: trans}
   - UP
@@ -89,25 +89,23 @@ layers:
   - '0'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LALT
-  - LCTRL
-  - LSHFT
-  - {t: ▽, type: trans}
-  - CLCK
+  - H
+  - J
+  - K
+  - L
+  - \
   - PG DN
   - LEFT
   - DOWN
   - RIGHT
   - DEL
   - BSPC
-  - {t: ▽, type: trans}
-  - UNDO
-  - CUT
-  - COPY
-  - PASTE
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: BT, h: '0'}
+  - N
+  - M
+  - ','
+  - .
+  - /
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -116,11 +114,13 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: BT, h: '1'}
   - {type: held}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -178,10 +178,10 @@ layers:
   - ''
   - ''
   - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - {type: held}
-  - ''
-  - ''
-  - {type: held}
-  - ''
-  - ''
   - ''
