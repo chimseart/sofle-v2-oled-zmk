@@ -1,63 +1,63 @@
 layout: {zmk_keyboard: sofle}
 layers:
-  default: [ESCAPE, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', BACKSPACE, TAB, Q, W, E, R, T, Y, U, I, O, P, BSPC, LEFT SHIFT, A, S, D, F, G, H, J, K, L, ;,
-    '''', LEFT CONTROL, Z, X, C, V, B, MUTE, '', N, M, ',', ., /, RSHFT, LGUI, raise, LEFT ALT, SPACE, lower, lower, SPACE, LEFT ALT, adjust, RGUI]
+  default: [BACKSPACE, '0', '9', '8', '7', '6', '6', '7', '8', '9', '0', BACKSPACE, TAB, P, O, I, U, Y, Y, U, I, O, P, BSPC, LSHFT, '''', L, K, J, H, H, J, K, L,
+    '''', RIGHT CONTROL, LEFT CONTROL, /, ., ',', M, N, lower, MUTE, N, M, ',', ., /, RSHFT, LWIN, raise, LEFT ALT, SPACE, lower, lower, SPACE, RCTRL, raise, RGUI]
   lower:
-  - '`'
-  - F1
-  - F2
-  - F3
-  - F4
-  - F5
+  - F11
+  - F10
+  - F9
+  - F8
+  - F7
+  - F6
   - F6
   - F7
   - F8
   - F9
   - F10
   - F11
-  - CAPS
-  - '5'
-  - UP ARROW
-  - '6'
-  - PRINTSCREEN
-  - BACKSPACE
+  - F12
+  - '='
+  - '-'
+  - PAGE UP
+  - HOME
+  - INS
   - INS
   - HOME
-  - PAGE UP
+  - PG UP
   - '-'
   - '='
-  - /
-  - LEFT SHIFT
-  - LEFT ARROW
-  - DOWN ARROW
-  - RIGHT
-  - \
-  - ENTER
+  - F12
+  - ;
+  - '['
+  - ']'
+  - PAGE DOWN
+  - END
+  - ^
   - ^
   - END
   - PAGE DOWN
   - '['
   - ']'
-  - RIGHT SHIFT
-  - LEFT CONTROL
-  - '-'
-  - PREVIOUS
-  - PLAY PAUSE
-  - NEXT
-  - DEL
+  - ;
   - {t: ▽, type: trans}
+  - '|'
+  - PREV
+  - SCROLLLOCK
+  - SCROLLLOCK
+  - PRINTSCREEN
+  - {type: held}
   - {t: ▽, type: trans}
-  - '['
-  - ']'
+  - PRINTSCREEN
+  - SCROLLLOCK
   - ;
   - ':'
-  - \
-  - RIGHT CONTROL
-  - '&studio_unlock'
+  - '|'
   - {t: ▽, type: trans}
-  - BRI DEC
-  - BRIGHTNESS INC
-  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -66,65 +66,65 @@ layers:
   raise:
   - BT CLR
   - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - KP MULTIPLY
+  - KP MULTIPLY
+  - KP SLASH
+  - KP NUMLOCK
+  - KP NUMLOCK
+  - KP DIVIDE
+  - KP MULTIPLY
+  - KP MINUS
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Y
-  - U
-  - I
-  - O
-  - P
-  - PG UP
-  - {t: ▽, type: trans}
-  - UP
-  - {t: ▽, type: trans}
+  - KP PLUS
+  - KP 9
+  - KP 8
+  - KP 7
+  - KP 7
+  - KP 8
+  - KP 9
+  - KP PLUS
   - '0'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - H
   - J
-  - K
-  - L
-  - \
-  - PG DN
-  - LEFT
-  - DOWN
+  - KP 6
+  - KP 5
+  - KP 4
+  - KP 4
+  - KP 5
+  - KP 6
   - RIGHT
   - DEL
   - BSPC
   - {t: BT, h: '0'}
-  - N
-  - M
-  - ','
-  - .
-  - /
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - KP 3
+  - KP 2
+  - KP 1
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - KP 1
+  - KP 2
+  - KP 3
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: BT, h: '1'}
   - {type: held}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
+  - KP DOT
+  - KP 0
+  - EP TOG
+  - {t: ▽, type: trans}
+  - KP 0
+  - AC DEL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  adjust:
+  Adjust:
   - BT CLR
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
@@ -137,7 +137,7 @@ layers:
   - ''
   - ''
   - ''
-  - EP TOG
+  - EXT POWER TOGGLE CMD
   - RGB HUD
   - RGB HUI
   - RGB SAD
@@ -167,14 +167,7 @@ layers:
   - ''
   - ''
   - ''
-  - RGB TOG
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - {t: RGB TOG, type: held}
   - ''
   - ''
   - ''
@@ -185,3 +178,71 @@ layers:
   - ''
   - {type: held}
   - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  '4':
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
