@@ -84,7 +84,7 @@ layers:
   - P
   - PG UP
   - {t: ▽, type: trans}
-  - UP
+  - '&mmv MOVE_UP'
   - {t: ▽, type: trans}
   - '0'
   - {t: ▽, type: trans}
@@ -95,11 +95,11 @@ layers:
   - L
   - \
   - PG DN
-  - LEFT
-  - DOWN
-  - RIGHT
-  - DEL
-  - BSPC
+  - '&mmv MOVE_LEFT'
+  - '&mmv MOVE_DOWN'
+  - '&mmv MOVE_RIGHT'
+  - '&mkp LCLK'
+  - '&mkp RCLK'
   - {t: BT, h: '0'}
   - N
   - M
