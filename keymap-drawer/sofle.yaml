@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: sofle}
 layers:
   default: [ESCAPE, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', BACKSPACE, TAB, Q, W, E, R, T, Y, U, I, O, P, BSPC, LEFT SHIFT, A, S, D, F, G, H, J, K, L, ;,
-    '''', LEFT CONTROL, Z, X, C, V, B, lower, lower, N, M, ',', ., /, RSHFT, LGUI, LEFT WIN, raise, LEFT ALT, SPACE, SPACE, LEFT ALT, adjust, RIGHT GUI, RGUI]
+    '''', LEFT CONTROL, Z, X, C, V, B, lower, lower, N, M, ',', ., /, RSHFT, LGUI, LEFT WIN, raise, LEFT ALT, SPACE, SPACE, LEFT ALT, raise, RIGHT GUI, RGUI]
   lower:
   - '`'
   - F1
@@ -19,7 +19,7 @@ layers:
   - '5'
   - UP ARROW
   - '6'
-  - PRINTSCREEN
+  - LEFT ALT
   - BACKSPACE
   - INS
   - HOME
@@ -54,8 +54,8 @@ layers:
   - \
   - RIGHT CONTROL
   - '&studio_unlock'
-  - '&studio_unlock'
-  - {t: ▽, type: trans}
+  - {t: default, h: toggle}
+  - {t: gamin, h: toggle}
   - BRIGHTNESS DEC
   - BRIGHTNESS INC
   - {t: ▽, type: trans}
@@ -88,7 +88,7 @@ layers:
   - {t: ▽, type: trans}
   - '0'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&studio_unlock'
   - H
   - J
   - K
@@ -124,64 +124,64 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  adjust:
-  - BT CLR
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - EP TOG
-  - RGB HUD
-  - RGB HUI
-  - RGB SAD
-  - RGB SAI
-  - RGB EFF
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - RGB BRD
-  - RGB BRI
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - RGB TOG
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - {type: held}
-  - ''
-  - ''
+  gamin:
+  - ESCAPE
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - BACKSPACE
+  - TAB
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - BSPC
+  - LEFT SHIFT
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - ;
+  - ''''
+  - LEFT CONTROL
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - {t: lower, type: held}
+  - lower
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - RSHFT
+  - {t: default, h: toggle}
+  - LEFT WIN
+  - {t: raise, type: held}
+  - '&mkp LCLK'
+  - SPACE
+  - SPACE
+  - LEFT ALT
+  - raise
+  - RIGHT GUI
+  - RGUI
