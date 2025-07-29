@@ -88,7 +88,7 @@ layers:
   - KP PLUS
   - '0'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&studio_unlock'
   - H
   - J
   - KP 6
@@ -116,9 +116,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: BT, h: '1'}
   - {type: held}
-  - KP DOT
-  - KP 0
-  - EP TOG
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
   - {t: ▽, type: trans}
   - KP 0
   - AC DEL
