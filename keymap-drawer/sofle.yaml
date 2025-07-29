@@ -26,7 +26,7 @@ layers:
   - PAGE UP
   - '-'
   - '='
-  - /
+  - F12
   - LEFT SHIFT
   - LEFT ARROW
   - DOWN ARROW
@@ -88,7 +88,7 @@ layers:
   - {t: ▽, type: trans}
   - '0'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&studio_unlock'
   - H
   - J
   - K
