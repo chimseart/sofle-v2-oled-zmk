@@ -2,67 +2,6 @@ layout: {zmk_keyboard: sofle}
 layers:
   default: [ESCAPE, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', BACKSPACE, TAB, Q, W, E, R, T, Y, U, I, O, P, BSPC, LEFT SHIFT, A, S, D, F, G, H, J, K, L, ;,
     '''', LEFT CONTROL, Z, X, C, V, B, MUTE, '', N, M, ',', ., /, RSHFT, LGUI, raise, LEFT ALT, SPACE, lower, lower, SPACE, LEFT ALT, adjust, RGUI]
-  lower:
-  - '`'
-  - F1
-  - F2
-  - F3
-  - F4
-  - F5
-  - F6
-  - F7
-  - F8
-  - F9
-  - F10
-  - F11
-  - CAPS
-  - '5'
-  - UP ARROW
-  - '6'
-  - PRINTSCREEN
-  - BACKSPACE
-  - INS
-  - HOME
-  - PAGE UP
-  - '-'
-  - '='
-  - F12
-  - LEFT SHIFT
-  - LEFT ARROW
-  - DOWN ARROW
-  - RIGHT
-  - \
-  - ENTER
-  - ^
-  - END
-  - PAGE DOWN
-  - '['
-  - ']'
-  - RIGHT SHIFT
-  - LEFT CONTROL
-  - '-'
-  - PREVIOUS
-  - PLAY PAUSE
-  - NEXT
-  - DEL
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '['
-  - ']'
-  - ;
-  - ':'
-  - \
-  - RIGHT CONTROL
-  - '&studio_unlock'
-  - {t: ▽, type: trans}
-  - BRI DEC
-  - BRIGHTNESS INC
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   raise:
   - BT CLR
   - '6'
@@ -119,6 +58,67 @@ layers:
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
   - {t: BT, h: '4'}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  lower:
+  - '`'
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - F11
+  - CAPS
+  - F7
+  - UP ARROW
+  - F8
+  - PRINTSCREEN
+  - BACKSPACE
+  - INS
+  - HOME
+  - PAGE UP
+  - '-'
+  - '='
+  - F12
+  - LEFT SHIFT
+  - LEFT ARROW
+  - DOWN ARROW
+  - RIGHT
+  - \
+  - ENTER
+  - ^
+  - END
+  - PAGE DOWN
+  - '['
+  - ']'
+  - RIGHT SHIFT
+  - LEFT CONTROL
+  - '-'
+  - PREVIOUS
+  - PLAY PAUSE
+  - NEXT
+  - DEL
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '['
+  - ']'
+  - ;
+  - ':'
+  - \
+  - RIGHT CONTROL
+  - '&studio_unlock'
+  - {t: ▽, type: trans}
+  - BRI DEC
+  - BRIGHTNESS INC
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
